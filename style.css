@@ -1,0 +1,50 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.btn {
+  background-image: linear-gradient(to right, #31cf72, #2dbbc4);
+  color: white;
+  border-radius: 30px;
+}
+
+.page1 {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  width: 100%;
+}
+
+.heading {
+  flex: 0 1 auto;
+}
+
+.content {
+  flex: 1 1 auto;
+}
+
+.image img {
+  height: 80%;
+  width: 85%;
+}
+
+.page2 {
+  width: 100%;
+}
+
+.page4 {
+  width: 100%;
+
+  background-color: hsl(233, 26%, 24%);
+}
+
+.link > a {
+  text-decoration: none;
+  color: white;
+}
+
+.link > a:hover {
+  color: hsl(192, 70%, 51%);
+}
